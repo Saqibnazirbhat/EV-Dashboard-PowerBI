@@ -1,0 +1,27 @@
+# Power BI temporary / cache files
+*.pbix.tmp
+*~$*.pbix
+TempState/
+
+# Extracted raw data (keep only the zipped copy in the repo)
+data/*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Python (helper tooling)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Temp/scratch
+_*.png
+_*.txt
+*.log
